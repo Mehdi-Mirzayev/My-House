@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction:wrap-reverse;
+    justify-content:start;
+    background-color: rgb(137, 115, 88);
+    
+    padding: 15px;
+}
+
+    
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    
+}
+ul{
+    
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+    list-style: none;
+    font-size: 30px;
+    color:rgb(224, 203, 171);
+    font-family: "Marck Script", cursive;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 30%;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+.product_img img{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    
+}
+
+
+
+.img{
+    background: url("https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 100px);
+    background-position: center;
+    
+}
+.center_text{
+    width: 700px;
+    margin: 5px;
+    font-family: "Marhey", sans-serif;
+}
+.center_text{
+    margin-top: 15px;
+}
+
+.center_text1{
+    width: 700px;
+    margin: 5px;
+    font-family: "Marhey", sans-serif;
+    
+}
+.glt_img{
+    color:rgb(59, 54, 46);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    position: absolute;
+    top: 190px;
+    right: 300px;
+    font-family: "Marhey", sans-serif;
+    width: 600px;
+    
+}
+.h3_text{
+    color:rgb(59, 54, 46);
+    display:flex ;
+    justify-content:flex-end;
+    width: 800px;
+    font-size: 20px;
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    font-family: "Marhey", sans-serif;
+    
+}
+
+.my_home{
+    display: flex;
+    color:rgb(224, 203, 171);
+    position: absolute;
+    top: 90px;
+    font-family: "Marhey", sans-serif;
+}
+
+.incognito{
+    color: white;
+    display: flex;
+    flex-direction: end;
+    font-size: 32px;
+    position: absolute;
+    top: 60px;
+    right: 80px;
+
+    
+}
+.ligt{
+    position: absolute;
+    top: 95px;
+    right: 15px;
+    
+}
+
+.btn1{
+    display: flex;
+    position: absolute;
+    top: 1185px;
+    right: 1050px;
+    
+    
+}
+
+.btn2{
+    display: flex;
+    position: absolute;
+    top: 1185px;
+    right: 635px;
+    
+    
+}
+
+.btn3{
+    display: flex;
+    position: absolute;
+    top: 1185px;
+    right: 220px;
+    
+    
+}
+
+.btn4{
+    display: flex;
+    position: absolute;
+    top: 1560px;
+    right: 1050px;
+    
+}
+
+.btn5{
+    display: flex;
+    position: absolute;
+    top: 1560px;
+    right: 635px;
+    
+    
+}
+
+.btn6{
+    display: flex;
+    position: absolute;
+    top: 1560px;
+    right: 220px;
+    
+    
+}
+
+.heart1{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 860px;
+    right: 995px;
+    font-size: 25px;
+}
+
+.heart2{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 860px;
+    right: 580px;
+    font-size: 25px;
+}
+
+.heart3{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 860px;
+    right: 165px;
+    font-size: 25px;
+}
+
+.heart4{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 1240px;
+    right: 995px;
+    font-size: 25px;
+}
+
+.heart5{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 1240px;
+    right: 580px;
+    font-size: 25px;
+}
+
+.heart6{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: 1240px;
+    right: 165px;
+    font-size: 25px;
+    
+}
+button{
+    background-color: rgb(97, 97, 78);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.imge_txt{
+    position: absolute;
+    top: 1700px;
+    right: 300px;
+    font-size: 25px;
+    color:rgb(59, 54, 46);
+    font-family: "Marhey", sans-serif;
+    
+}
+.image_txt1{
+    position: absolute;
+    top: 1800px;
+    right: 300px;
+    color:rgb(59, 54, 46);
+    width: 650px;
+    font-family: "Marhey", sans-serif;
+}
+.avrp_img{
+   background: url(https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: calc(100vh - 100px);
+   background-position: center;
+   
+    
+}
+
+.end_img{
+    position: absolute;
+    top: 2150px;
+    left: 1000px;
+}
+
+.end_txt{
+    position: absolute;
+    top: 5px;
+    right: 1120px;
+    font-family: "Marhey", sans-serif;
+}
+
+.end_text1{
+    position: absolute;
+    top: 50px;
+    right: 600px;
+    width: 600px;
+    font-family: "Marhey", sans-serif;
+    font-size: 13px;
+    
+}
+.ligt1{
+    position: absolute;
+    top: 2180px;
+    right: 1205px;
+}
+
+.ligt2{
+    position: absolute;
+    top: 2180px;
+    right: 1150px;
+}
+
+.chevron_right{
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   position: absolute;
+   top: 180px;
+   right: 20px;
+}
+
+.chevron_left{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: absolute;
+    top: 180px;
+    right: 260px;
+ }
